@@ -1,0 +1,3 @@
+dism /Split-Image /ImageFile:install.wim /SWMFile:install.swm /FileSize:3200 --> to split the big .wim file
+
+oscdimg.exe -m -o -u2 -udfver102 -bootdata:2#p0,e,be:\setupfileswin11\boot\etfsboot.com#pEF,e,be:\setupfileswin11\efi\microsoft\boot\efisys.bin e:\setupfileswin11 e:\win11prounattend.iso -->create iso image from setupfiles

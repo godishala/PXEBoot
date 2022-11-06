@@ -1,0 +1,3 @@
+dism /Get-WimInfo /WimFile:install_win11.esd
+
+dism /export-image /SourceImageFile:install_win11.esd /SourceIndex:6 /DestinationImageFile:E:\wim\win11pro.wim /Compress:max /CheckIntegrity

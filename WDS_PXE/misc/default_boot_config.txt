@@ -1,0 +1,4 @@
+wdsutil /set-server /bootprogram:boot\x86\pxeboot.com /architecture:x86
+wdsutil /set-server /N12bootprogram:boot\x86\pxeboot.n12 /architecture:x86 
+wdsutil /set-server /bootprogram:boot\x64\pxeboot.com /architecture:x64
+wdsutil /set-server /N12bootprogram:boot\x64\pxeboot.n12 /architecture:x64
