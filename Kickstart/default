@@ -1,0 +1,9 @@
+# Replace Domain-IP with Domain-name or IP with `%s/Domain-IP/10.0.0.10/g` or `%s/Domain-IP/example.om/g` in vim
+
+default menu.c32
+prompt 0
+timeout 30
+menu title GPchandra's PXE Menu
+label Install Rockylinux
+kernel networkboot/rocky/vmlinuz
+append initrd=networkboot/rocky/initrd.img inst.ks=http://Domain-IP/ks.conf
